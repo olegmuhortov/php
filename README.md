@@ -2,16 +2,11 @@ REST API для управления задачами.
 
 # Запуск
 
-1. Клонировать репозиторий:
-
-git clone https://github.com/olegmuhortov/php
-cd php
-
-2. Установить зависимости:
+1. Установить зависимости:
 
 composer install
 
-3. Настроить среду:
+2. Настроить среду:
 
 cp .env.example .env
 php artisan key:generate
@@ -20,11 +15,11 @@ php artisan key:generate
 
 touch database/database.sqlite
 
-5. Запустить миграции:
+4. Запустить миграции:
 
 php artisan migrate
 
-6.Запустить сервер разработки:
+5.Запустить сервер разработки:
 
 php artisan serve
 
