@@ -1,11 +1,11 @@
 REST API для управления задачами.
 
-## Запуск
+# Запуск
 
 1. Клонировать репозиторий:
 
-git clone https://github.com/yourusername/todo-api.git
-cd todo-api
+git clone https://github.com/olegmuhortov/php
+cd php
 
 2. Установить зависимости:
 
@@ -28,7 +28,7 @@ php artisan migrate
 
 php artisan serve
 
-### Примеры запросов с использованием cURL:
+## Примеры запросов с использованием cURL:
 
 1. Создание задачи:
 
